@@ -24,14 +24,14 @@ Outputs a PRTG XML structure with multiple information about UAG
     -url "https://%host:9443/rest/v1/monitor/stats" -username "%windowsuser" -password "%windowspassword"
 
 ### Screenshot of sensor creation
-
+![VMware UAG Sensor Configuration](https://github.com/NIOSAG/prtg-sensor-vmware-uag/blob/main/prtg-sensor-vmware-uag-config.png?raw=true "Sensor Configuration")
 
 ### Screenshot of sensor overview
-
+![VMware UAG Sensor Overview](https://github.com/NIOSAG/prtg-sensor-vmware-uag/blob/main/prtg-sensor-vmware-uag-details.png?raw=true "Sensor Details")
 
 ## Troubleshooting
 If the sensors report errors please follow this steps to identity the cause:
 
 - Make sure that the sensor stores the EXE result in the file system, so that you can access the error message in the folder C:\ProgramData\Paessler\PRTG Network Monitor\Logs (Sensors).
-- Let the PRTG Sensor recheck the McAfee DAT Version.
+- Let the PRTG Sensor recheck the UAG.
 - Check the LOG files.
