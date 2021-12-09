@@ -1,8 +1,8 @@
-# prtg-sensor-vmware-uag
+# VMware UAG Sensor for PRTG
  Created by [NIOS AG](https://nios.ch)
  
  ## Description
-Outputs a PRTG XML structure with multiple information about UAG
+Outputs a PRTG XML structure with multiple information about UAG such as "Broker Status", "Authenticated Sessions" (Blast / PcoIP) and "OverallStatus"
 
 ## Installation
 ### Sensor creation
