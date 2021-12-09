@@ -1,0 +1,1 @@
+# prtg-sensor-vmware-uag
